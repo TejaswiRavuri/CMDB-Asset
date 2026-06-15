@@ -1,4 +1,6 @@
-IT Asset Inventory & CMDB Management System
+IT Asset Inventory & CMDB Management System.
+
+
 This project is a Configuration Management Database (CMDB) built with Python, Tkinter, and MySQL. It provides a user-friendly interface for managing IT assets, including adding, viewing, updating, deleting, and generating reports.
 
 The system also integrates contextual metadata from the user’s Edge browser tabs to understand what the user is currently viewing, which helps provide relevant assistance.
