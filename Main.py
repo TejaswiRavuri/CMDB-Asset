@@ -12,7 +12,6 @@ from Modules.duplicate_asset import duplicate_asset_window
 from Modules.report import generate_report
 
 
-# ================= MAIN WINDOW =================
 
 root = Tk()
 
@@ -20,7 +19,6 @@ root.title("IT Asset Inventory & CMDB Management System")
 root.geometry("900x650")
 
 
-# ================= SCROLL SETUP =================
 
 canvas = Canvas(root)
 
@@ -53,7 +51,6 @@ canvas.configure(
 )
 
 
-# Mouse wheel / Touchpad scrolling
 
 def on_mousewheel(event):
     canvas.yview_scroll(
@@ -81,7 +78,6 @@ scrollbar.pack(
 )
 
 
-# ================= DATABASE COUNTS =================
 
 
 def get_count(query):
@@ -94,7 +90,6 @@ def get_count(query):
 
 
 
-# ================= HEADER =================
 
 
 Label(
@@ -113,7 +108,6 @@ Label(
 
 
 
-# ================= DASHBOARD STATS =================
 
 
 stats_frame = Frame(scroll_frame)
@@ -170,8 +164,6 @@ Label(
 
 
 
-# ================= BUTTON STYLE =================
-
 
 style = ttk.Style()
 
@@ -223,8 +215,6 @@ for text, command in buttons:
     ).pack(pady=8)
 
 
-
-# ================= FOOTER =================
 
 
 Label(
